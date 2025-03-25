@@ -7071,7 +7071,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8bc-1dd0-e71d-ba31" name="Captain Steve Rogers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d8bc-1dd0-e71d-ba31" name="Captain Steve Rogers" hidden="false" collective="false" import="true" type="unit" publicationId="18aa-d4ca-4bd3-0574">
       <rules>
         <rule id="53ed-68cd-2b70-901d" name="Get Moving" hidden="false">
           <description>When Samuels is activated, all friendly infantry and artillery units within 6&quot; can immediately remove one pin marker.</description>
@@ -7090,6 +7090,7 @@
         <categoryLink id="d2e4-d8f7-2666-d77c" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false"/>
         <categoryLink id="2628-e3e8-cb2b-2d72" name="Paragon Officer" hidden="false" targetId="df35-2027-c9d7-ca2f" primary="false"/>
         <categoryLink id="b31a-2bf0-47ce-6f01" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="true"/>
+        <categoryLink targetId="fb1a-cb93-a427-51cf" id="ee1b-4d42-f650-e30b" primary="false" name="Commander"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Vibranium Shield" hidden="false" id="d90d-5ba4-ce0f-f952" type="selectionEntry" publicationId="18aa-d4ca-4bd3-0574" targetId="c5fb-bf35-01fc-e161"/>
