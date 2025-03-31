@@ -7104,6 +7104,7 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
         <categoryLink id="8092-f5eb-2cc4-71c5" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false"/>
         <categoryLink id="567f-ceb9-ff1e-f611" name="Paragon Officer" hidden="false" targetId="df35-2027-c9d7-ca2f" primary="false"/>
         <categoryLink id="260a-f30c-2bbe-a292" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="true"/>
+        <categoryLink targetId="fb1a-cb93-a427-51cf" id="6d75-1994-e1eb-2aa3" primary="false" name="Commander"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Shield Throw" hidden="false" id="41f2-162b-6dc6-1973" collective="true">
