@@ -7073,7 +7073,7 @@
     <selectionEntry id="f7f1-6d4d-3dd3-9eb1" name="Paragon Officer Captain Steve Rogers" hidden="false" collective="false" import="true" type="unit" publicationId="dbcd-1dc6-97bf-c40c">
       <rules>
         <rule id="eea6-ae49-ae87-2530" name="Get Moving" hidden="false">
-          <description>When Samuels is activated, all friendly infantry and artillery units within 6&quot; can immediately remove one pin marker.</description>
+          <description>When Rogers is activated, all friendly infantry and artillery units within 6&quot; can immediately remove one pin marker.</description>
         </rule>
         <rule name="Motorbikes" id="70b9-a121-0685-c6ed" hidden="false" publicationId="9a47-ac76-pubN65784" page="82">
           <description>As with cavalry motorbikes are generally treated as infantry with the following exceptions.
@@ -7094,6 +7094,9 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
         <rule name="Vibranium Shield" id="f986-e7c5-da53-5156" hidden="false" publicationId="dbcd-1dc6-97bf-c40c">
           <description>The Vibranium Shield provides hard cover in a 180º arc for Steve Rogers and up to 2 adjacent models.</description>
         </rule>
+        <rule name="Resilient" id="93d3-42cb-c624-c999" hidden="false" publicationId="9a47-ac76-pubN65784" page="84">
+          <description>Troops with the resilient special rule ahve a Damage value of 6+ when being fired upon, they use their normal morale level in hand-to-hand combat.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="2f0b-baa9-b9bb-3839" name="Captain" hidden="false" targetId="823f-83c4-4d7a-b6f7" type="profile"/>
@@ -7110,7 +7113,7 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
         <categoryLink targetId="fb1a-cb93-a427-51cf" id="6d75-1994-e1eb-2aa3" primary="false" name="Commander"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Shield Throw" hidden="false" id="54be-e08c-f7b6-3e2c" collective="true" publicationId="dbcd-1dc6-97bf-c40c">
+        <selectionEntry type="model" import="true" name="Shield Throw" hidden="false" id="592c-7848-dae1-db03" collective="true" publicationId="dbcd-1dc6-97bf-c40c">
           <infoLinks>
             <infoLink name="Assault" id="6107-4d11-1996-d8bd" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
           </infoLinks>
@@ -7127,6 +7130,9 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink targetId="be7e-306b-30b5-03b8" id="5d9b-238d-3366-c1ba" primary="false" name="Characters"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
