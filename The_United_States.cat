@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2367-9a00-5a8f-f0d2" name="The_United_States" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2367-9a00-5a8f-f0d2" name="The_United_States" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Justin Florentine" authorContact="justin@florentine.us" authorUrl="github.com/jflo/konflikt47" type="catalogue">
   <publications>
     <publication id="2367-9a00-pubN65551" name="Konflikt 47 Rules"/>
     <publication id="2367-9a00-pubN65638" name="Konflikt 47: Defiance"/>
@@ -7091,6 +7091,9 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
         <rule name="Motorcycle Throw" id="00b6-b7b7-9036-1db9" hidden="false">
           <description>As part of an Assault, Cpt. Steve Rogers may throw his motorcycle up to the remainder of the assault range. Treat this throw as if an attack with a medium mortar, HE (D6)</description>
         </rule>
+        <rule name="Vibranium Shield" id="f986-e7c5-da53-5156" hidden="false" publicationId="dbcd-1dc6-97bf-c40c">
+          <description>The Vibranium Shield provides hard cover in a 180º arc for Steve Rogers and up to 2 adjacent models.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="2f0b-baa9-b9bb-3839" name="Captain" hidden="false" targetId="823f-83c4-4d7a-b6f7" type="profile"/>
@@ -7109,25 +7112,23 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Shield Throw" hidden="false" id="54be-e08c-f7b6-3e2c" collective="true" publicationId="dbcd-1dc6-97bf-c40c">
           <infoLinks>
-            <infoLink name="Assault Rifle" id="c0d9-ace0-b6d2-36ea" hidden="false" targetId="709f-70a0-e25d-bf63" type="profile"/>
             <infoLink name="Assault" id="6107-4d11-1996-d8bd" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Shield Throw" typeId="6f79-864b-5586-5191" typeName="Weapon" hidden="false" id="dbe1-8e01-7252-e6a6" publicationId="dbcd-1dc6-97bf-c40c">
+              <characteristics>
+                <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18&quot;</characteristic>
+                <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
+                <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7"/>
+                <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Assault</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="f196-9f21-ebaf-d5dd" name="Vibranium Shield" hidden="false" collective="false" import="true" targetId="2609-ac89-df6f-d258" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a9b-1174-c9f0-7952" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="761a-00c5-5972-7314" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink targetId="df35-2027-c9d7-ca2f" id="ae9b-e367-825e-2924" primary="false" name="Paragon Officer"/>
-          </categoryLinks>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="155"/>
       </costs>
