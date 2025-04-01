@@ -5008,7 +5008,7 @@
         <categoryLink id="8b70-76a5-60c6-3277" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="102d-fdc5-4286-e474" name="Radio Network" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="102d-fdc5-4286-e474" name="Radio Network" hidden="true" collective="false" import="true" type="upgrade" sortIndex="4">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -5049,7 +5049,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9ae4-f662-4d32-9197" name="Left Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9ae4-f662-4d32-9197" name="Left Arm" hidden="false" collective="false" import="true" sortIndex="6">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62e-2b0d-be2c-fd58" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7169-4b90-137c-cb68" type="max"/>
@@ -5070,7 +5070,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6f4d-868b-e3ed-ae2a" name="Right Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6f4d-868b-e3ed-ae2a" name="Right Arm" hidden="false" collective="false" import="true" sortIndex="7">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d9-80d2-3dde-ab22" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04e8-65ea-bc0e-08b1" type="max"/>
@@ -5093,22 +5093,22 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="aed1-81bc-d260-1ca1" name="Casement-Mounted Forward-Facing Light Automatic Cannon" hidden="false" collective="false" import="true" targetId="6854-ac6c-9320-f2c2" type="selectionEntry">
+        <entryLink id="aed1-81bc-d260-1ca1" name="Casement-Mounted Forward-Facing Light Automatic Cannon" hidden="false" collective="false" import="true" targetId="6854-ac6c-9320-f2c2" type="selectionEntry" sortIndex="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae98-97d2-56c9-7054" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e93-bfda-1308-2919" type="max"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1529-1dae-5833-10b7-min" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1529-1dae-5833-10b7-max" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink id="d24b-2152-f072-4312" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
           </infoLinks>
         </entryLink>
-        <entryLink id="2cc0-f51d-32e4-b376" name="Fist" hidden="false" collective="true" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry">
+        <entryLink id="2cc0-f51d-32e4-b376" name="Fist" hidden="false" collective="true" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry" sortIndex="2">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d46-21ed-9d0d-80e6" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f9-31d6-69e3-dadd" type="max"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3680-1529-fb9f-09c9-min" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3680-1529-fb9f-09c9-max" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink id="e9d0-b869-31aa-e368" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="e9d0-b869-31aa-e368" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup" sortIndex="5">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -5117,6 +5117,15 @@
             </modifier>
           </modifiers>
         </entryLink>
+<<<<<<< Updated upstream
+=======
+        <entryLink import="true" name="Hull-Mounted Forward-Facing MMG" hidden="false" id="c711-3c1d-4f65-8275" type="selectionEntry" targetId="f3d9-1a0f-0031-e8c7" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8094-d7fe-2e08-8b82-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8094-d7fe-2e08-8b82-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+>>>>>>> Stashed changes
       </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="240"/>
