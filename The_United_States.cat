@@ -5039,6 +5039,14 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="5"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hull-Mounted Forward-Facing MMG" hidden="false" id="1ff5-2a62-b197-14fd" publicationId="9a47-ac76-pubN65784" page="58" collective="false">
+          <infoLinks>
+            <infoLink name="Hull-Mounted Forward-Facing MMG" id="334a-52e9-6dd1-48dc" hidden="false" targetId="8149-6382-e2ae-f795" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9ae4-f662-4d32-9197" name="Left Arm" hidden="false" collective="false" import="true">
