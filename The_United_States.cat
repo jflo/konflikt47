@@ -7107,10 +7107,10 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
         <categoryLink targetId="fb1a-cb93-a427-51cf" id="6d75-1994-e1eb-2aa3" primary="false" name="Commander"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Shield Throw" hidden="false" id="41f2-162b-6dc6-1973" collective="true">
+        <selectionEntry type="upgrade" import="true" name="Shield Throw" hidden="false" id="54be-e08c-f7b6-3e2c" collective="true" publicationId="dbcd-1dc6-97bf-c40c">
           <infoLinks>
-            <infoLink name="Shield Throw" id="c37f-5fa6-e9aa-4fc1" hidden="false" targetId="709f-70a0-e25d-bf63" type="profile"/>
-            <infoLink name="Assault" id="c330-c2ce-06b4-8f9a" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
+            <infoLink name="Assault Rifle" id="c0d9-ace0-b6d2-36ea" hidden="false" targetId="709f-70a0-e25d-bf63" type="profile"/>
+            <infoLink name="Assault" id="6107-4d11-1996-d8bd" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
@@ -7637,6 +7637,15 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shield Throw" hidden="false" id="1cd5-0c80-65a6-6b7f" collective="true" publicationId="dbcd-1dc6-97bf-c40c">
+      <infoLinks>
+        <infoLink name="Shield Throw" id="55e9-5f64-c6dd-2ca8" hidden="false" targetId="709f-70a0-e25d-bf63" type="profile"/>
+        <infoLink name="Assault" id="d2f2-453c-b103-a6da" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
