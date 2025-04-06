@@ -4999,7 +4999,6 @@
         <infoLink id="bbdc-7c07-ecef-d0c3" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="b350-467a-5c62-166a" name="Jump" hidden="false" targetId="4a4f-888e-9547-2696" type="rule"/>
         <infoLink id="bbf2-7275-b672-68e0" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
-        <infoLink name="Hull-Mounted Forward-Facing MMG" id="fcbc-40c8-693c-0de7" hidden="false" type="profile" targetId="8149-6382-e2ae-f795"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f7d0-4a6c-3520-1e34" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
