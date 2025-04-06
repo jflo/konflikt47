@@ -5087,8 +5087,8 @@
       <entryLinks>
         <entryLink id="aed1-81bc-d260-1ca1" name="Casement-Mounted Forward-Facing Light Automatic Cannon" hidden="false" collective="false" import="true" targetId="6854-ac6c-9320-f2c2" type="selectionEntry" sortIndex="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df12-3539-5969-5668" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8456-f9c8-4f16-6f63" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2aac-48ab-2a13-bbd2-min" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2aac-48ab-2a13-bbd2-max" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink id="d24b-2152-f072-4312" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
@@ -5108,6 +5108,12 @@
               </conditions>
             </modifier>
           </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Casement-Mounted Forward-Facing MMG" hidden="false" id="5e70-189d-ccd1-7538" type="selectionEntry" targetId="0db8-6972-ca9f-f49e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="655e-9438-5ad5-8646-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="655e-9438-5ad5-8646-max" includeChildSelections="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
