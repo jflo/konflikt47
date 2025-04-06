@@ -4999,6 +4999,7 @@
         <infoLink id="bbdc-7c07-ecef-d0c3" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="b350-467a-5c62-166a" name="Jump" hidden="false" targetId="4a4f-888e-9547-2696" type="rule"/>
         <infoLink id="bbf2-7275-b672-68e0" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
+        <infoLink name="Hull-Mounted Forward-Facing MMG" id="fcbc-40c8-693c-0de7" hidden="false" type="profile" targetId="8149-6382-e2ae-f795"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f7d0-4a6c-3520-1e34" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
@@ -5087,14 +5088,14 @@
       <entryLinks>
         <entryLink id="aed1-81bc-d260-1ca1" name="Casement-Mounted Forward-Facing Light Automatic Cannon" hidden="false" collective="false" import="true" targetId="6854-ac6c-9320-f2c2" type="selectionEntry" sortIndex="1">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8240-c5a0-b7fe-25cd-min" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8240-c5a0-b7fe-25cd-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df12-3539-5969-5668" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8456-f9c8-4f16-6f63" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink id="d24b-2152-f072-4312" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
           </infoLinks>
         </entryLink>
-        <entryLink id="2cc0-f51d-32e4-b376" name="Fist" hidden="false" collective="true" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry" sortIndex="2">
+        <entryLink id="2cc0-f51d-32e4-b376" name="Fist" hidden="false" collective="false" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry" sortIndex="3">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3680-1529-fb9f-09c9-min" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3680-1529-fb9f-09c9-max" includeChildSelections="false"/>
@@ -5108,12 +5109,6 @@
               </conditions>
             </modifier>
           </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Hull-Mounted Forward-Facing MMG" hidden="false" id="c4c1-711e-2f0b-dd3d" type="selectionEntry" targetId="f3d9-1a0f-0031-e8c7" publicationId="2367-9a00-pubN65551" page="158">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df8d-c79d-6c7f-ee0a-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df8d-c79d-6c7f-ee0a-max" includeChildSelections="false"/>
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>

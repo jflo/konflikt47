@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9a47-ac76-5252-54d0" name="Konflikt_47" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9a47-ac76-5252-54d0" name="Konflikt_47" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="9a47-ac76-pubN65784" name="Konflikt 47: Rules"/>
     <publication id="9a47-ac76-pubN65838" name="Konflikt 47: Defiance"/>
@@ -7,7 +7,7 @@
     <publication id="477d-bce6-7997-8bc1" name="Konflikt 47: Errata"/>
   </publications>
   <costTypes>
-    <costType id="d66a-aa5a-74b9-e93a" name="points" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="d66a-aa5a-74b9-e93a" name="points" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="ee55-42f4-196c-0bcb" name="Troop Quality">
@@ -98,63 +98,63 @@
       <categoryLinks>
         <categoryLink id="5423-f22c-212d-6191" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3c0d-725a-d11c-0eaa" name="Infantry Squad" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+        <categoryLink id="3c0d-725a-d11c-0eaa" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f3-bb2b-8177-6274" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f3-bb2b-8177-6274" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ede8-0c67-595a-9902" name="Headquarters" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+        <categoryLink id="ede8-0c67-595a-9902" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a5-65fe-0744-4248" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a5-65fe-0744-4248" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="4f89-b382-f82e-1bed" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58cb-0cce-33d3-b46b" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58cb-0cce-33d3-b46b" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="97d4-33be-a9a1-1def" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="666c-7230-2c41-29ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="666c-7230-2c41-29ad" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="117d-7ec2-74f3-5ffd" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf0b-0bd4-fae4-e54e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf0b-0bd4-fae4-e54e" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3cb5-6445-e4bf-42ca" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f0-99f3-50d4-9ad7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f0-99f3-50d4-9ad7" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="4b6a-7c0d-1a38-e0b4" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d3-d3e6-db75-de50" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d3-d3e6-db75-de50" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5240-6031-7a5d-07b1" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4604-1c79-07f4-9eeb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4604-1c79-07f4-9eeb" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="0669-97c2-3c2d-81e4" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f77-45a6-9ae9-1b6d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f77-45a6-9ae9-1b6d" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="e6e6-bb33-2f2f-86d7" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="984f-e8ae-568d-9ed4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="984f-e8ae-568d-9ed4" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3dfc-6d1b-e9e5-c26b" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44d8-bcd9-0637-db11" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44d8-bcd9-0637-db11" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7dcf-bb27-2ff4-19fb" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false"/>
@@ -168,128 +168,128 @@
         <categoryLink id="1e1d-fb17-6a0f-4f99" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false"/>
         <categoryLink id="40c7-79ae-01b1-cbc4" name="US Armored Officer" hidden="false" targetId="31fe-b631-5c13-5493" primary="false">
           <modifiers>
-            <modifier type="set" field="289e-dfac-6e98-45c7" value="1.0">
+            <modifier type="set" field="289e-dfac-6e98-45c7" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cf3-0bc0-7974-b411" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cf3-0bc0-7974-b411" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289e-dfac-6e98-45c7" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289e-dfac-6e98-45c7" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="a492-3c75-767d-7174" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false"/>
         <categoryLink id="3954-8399-8f5b-0b51" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
           <modifiers>
-            <modifier type="increment" field="7175-f7ef-81d4-bc61" value="1.0">
+            <modifier type="increment" field="7175-f7ef-81d4-bc61" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" repeats="1" roundUp="false"/>
               </repeats>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="equalTo"/>
-                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1e2-bbe0-922c-ff35" type="atLeast"/>
+                    <condition field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="equalTo"/>
+                    <condition field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1e2-bbe0-922c-ff35" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7175-f7ef-81d4-bc61" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7175-f7ef-81d4-bc61" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="1976-5c63-c819-3b4d" name="Reinforced Platoon" publicationId="9a47-ac76-pubN65784" page="126" hidden="false">
       <categoryLinks>
-        <categoryLink id="fba9-db9d-2a66-bae7" name="Headquarters" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+        <categoryLink id="fba9-db9d-2a66-bae7" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fb-0b1b-2a3e-0c50" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac7-d66d-ed4c-8a00" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fb-0b1b-2a3e-0c50" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac7-d66d-ed4c-8a00" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9d12-ea0d-6634-45b4" name="Infantry Squad" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+        <categoryLink id="9d12-ea0d-6634-45b4" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d8e-d7ba-e791-76e8" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c186-7daa-63fd-dde2" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d8e-d7ba-e791-76e8" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c186-7daa-63fd-dde2" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3178-42ec-43a4-f9f1" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a4-4394-269a-6ceb" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a4-4394-269a-6ceb" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="a022-f703-8768-bf9a" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2213-5baa-0acc-5d64" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2213-5baa-0acc-5d64" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="4eb9-c304-3522-e8cf" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f8-0739-133f-914c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f8-0739-133f-914c" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="49e6-27c9-4041-5c7e" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff50-fc33-3407-1d78" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff50-fc33-3407-1d78" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7150-28c8-52ee-4996" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cd-ab89-3775-e11d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cd-ab89-3775-e11d" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="580e-e26a-cd9d-0fbb" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b1-a2ef-469b-0a6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b1-a2ef-469b-0a6e" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="09c5-fa11-9e05-8439" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa78-23c3-580b-0c6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa78-23c3-580b-0c6e" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="b633-c0e8-8740-eff5" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="933c-e1cb-c7aa-2570" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="933c-e1cb-c7aa-2570" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="df65-1007-38f3-327b" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92a-9e0d-22a5-58da" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92a-9e0d-22a5-58da" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="48eb-79a3-9fc4-2d5d" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
           <modifiers>
-            <modifier type="increment" field="0481-faf2-c2df-aa27" value="1.0">
+            <modifier type="increment" field="0481-faf2-c2df-aa27" value="1">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0481-faf2-c2df-aa27" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0481-faf2-c2df-aa27" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
           <modifiers>
-            <modifier type="increment" field="b2da-7878-2d5f-7a48" value="1.0">
+            <modifier type="increment" field="b2da-7878-2d5f-7a48" value="1">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-7878-2d5f-7a48" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-7878-2d5f-7a48" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="0c45-2a16-73b2-76f3" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false"/>
@@ -303,14 +303,14 @@
         <categoryLink id="de84-4edf-2da8-d572" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false"/>
         <categoryLink id="e66f-403d-ab8b-5656" name="US Armored Officer" hidden="false" targetId="31fe-b631-5c13-5493" primary="false">
           <modifiers>
-            <modifier type="set" field="9559-526e-f978-84aa" value="1.0">
+            <modifier type="set" field="9559-526e-f978-84aa" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cf3-0bc0-7974-b411" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cf3-0bc0-7974-b411" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9559-526e-f978-84aa" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9559-526e-f978-84aa" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="2616-5762-cc5b-22aa" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false"/>
@@ -320,7 +320,7 @@
       <categoryLinks>
         <categoryLink id="cb55-8a62-db5e-01bb" name="Fortifications" hidden="false" targetId="c000-16a2-fa3b-c139" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfe-1d5c-0670-a764" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfe-1d5c-0670-a764" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -333,133 +333,133 @@
           <modifiers>
             <modifier type="append" field="name" value="10">
               <conditions>
-                <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="3">
               <conditions>
-                <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="2">
               <conditions>
-                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="9">
               <conditions>
-                <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="9" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="8">
               <conditions>
-                <condition field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="8" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="7">
               <conditions>
-                <condition field="selections" scope="force" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="7" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="1">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="6">
               <conditions>
-                <condition field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="5">
               <conditions>
-                <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="4">
               <conditions>
-                <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="16">
               <conditions>
-                <condition field="selections" scope="force" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="16" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="22">
               <conditions>
-                <condition field="selections" scope="force" value="22.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="22" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="13">
               <conditions>
-                <condition field="selections" scope="force" value="13.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="13" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="20">
               <conditions>
-                <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="20" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="11">
               <conditions>
-                <condition field="selections" scope="force" value="11.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="11" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="12">
               <conditions>
-                <condition field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="12" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="15">
               <conditions>
-                <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="15" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="17">
               <conditions>
-                <condition field="selections" scope="force" value="17.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="17" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="21">
               <conditions>
-                <condition field="selections" scope="force" value="21.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="21" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="23">
               <conditions>
-                <condition field="selections" scope="force" value="23.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="23" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="19">
               <conditions>
-                <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="19" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="24">
               <conditions>
-                <condition field="selections" scope="force" value="24.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="24" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="14">
               <conditions>
-                <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="14" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="18">
               <conditions>
-                <condition field="selections" scope="force" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="18" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a2-3804-cb11-00c0" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b03-dd31-8a6c-3d7d" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a2-3804-cb11-00c0" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b03-dd31-8a6c-3d7d" type="min"/>
       </constraints>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b98-9c2c-e4b9-f8af" name="Minefields" hidden="false" collective="false" import="true" type="upgrade">
@@ -475,14 +475,14 @@ A single minefield can only attack a unit once per move, but can attack multiple
       <selectionEntryGroups>
         <selectionEntryGroup id="4ff1-2d69-1863-d71d" name="Sections" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="ba4f-c71e-4ec6-74ee" value="25.0">
+            <modifier type="increment" field="ba4f-c71e-4ec6-74ee" value="25">
               <repeats>
-                <repeat field="d66a-aa5a-74b9-e93a" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+                <repeat field="d66a-aa5a-74b9-e93a" scope="force" value="500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="d66a-aa5a-74b9-e93a" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba4f-c71e-4ec6-74ee" type="max"/>
+            <constraint field="d66a-aa5a-74b9-e93a" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba4f-c71e-4ec6-74ee" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="213a-6cf9-9650-8639" name="Anti-Infantry Minefield" hidden="false" collective="false" import="true" type="upgrade">
@@ -497,7 +497,7 @@ A single minefield can only attack a unit once per move, but can attack multiple
                 </profile>
               </profiles>
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6b84-3190-3e21-9a34" name="Anti-Tank Minefield" hidden="false" collective="false" import="true" type="upgrade">
@@ -512,7 +512,7 @@ A single minefield can only attack a unit once per move, but can attack multiple
                 </profile>
               </profiles>
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6e6e-1386-b87a-48fb" name="Mixed Minefield" hidden="false" collective="false" import="true" type="upgrade">
@@ -527,7 +527,7 @@ A single minefield can only attack a unit once per move, but can attack multiple
                 </profile>
               </profiles>
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f8ec-c1a0-05ff-fb81" name="Flamethrower Minefield" hidden="false" collective="false" import="true" type="upgrade">
@@ -550,7 +550,7 @@ A single minefield can only attack a unit once per move, but can attack multiple
                 <infoLink id="b329-7d55-2b2f-5573" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fe5f-8b74-9b81-d0c5" name="Dummy Minefields" hidden="false" collective="false" import="true" type="upgrade">
@@ -561,14 +561,14 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
                 </rule>
               </rules>
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -579,7 +579,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f255-3039-42b8-dd32" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da2f-423c-1523-5126" name="SMG" hidden="false" collective="false" import="true" type="upgrade">
@@ -588,7 +588,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="7abf-996b-2829-868e" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69b8-002c-ef16-c6e4" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -596,7 +596,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f189-f2e6-9107-16de" name="Rifle" hidden="false" targetId="45fa-b48d-a682-3620" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7cdc-1638-6e4c-f0fa" name="Assault Rifle" hidden="false" collective="true" import="true" type="upgrade">
@@ -605,7 +605,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ce7c-7f29-5370-a067" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5344-848e-632f-9e09" name="Inexperienced" hidden="false" collective="false" import="true" type="upgrade">
@@ -613,7 +613,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="3d1b-86f9-4f35-0f26" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="020b-0c80-419b-6391" name="Regular" hidden="false" collective="false" import="true" type="upgrade">
@@ -621,7 +621,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="3173-8925-e1fd-70ad" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="611f-6911-51f6-d7a2" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
@@ -629,7 +629,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ea53-b4b3-2467-198b" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -637,7 +637,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="36d1-98db-3842-910d" name="No Weapon" hidden="false" targetId="d1e1-7f47-e5ff-ad2e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc9e-d657-62e3-2a8d" name="Shotgun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -646,7 +646,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="4492-6119-c622-70f0" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1efc-f6d3-abb7-0876" name="Automatic Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
@@ -654,49 +654,49 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="7e65-3286-5068-481f" name="Automatic Rifle" hidden="false" targetId="05f9-c32d-ccf4-8554" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff34-acf0-0405-2cfb" name="MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="afea-8baf-9655-7de5" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile"/>
         <infoLink id="7218-0b31-2837-455a" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="1d6b-16ce-681e-368c" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="1d6b-16ce-681e-368c" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="26df-ebe9-f37a-4485" name="HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5ad0-6047-f59e-24ab" name="HMG" hidden="false" targetId="5b08-f9aa-c205-ec2f" type="profile"/>
         <infoLink id="7507-13a5-0e25-6347" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="991d-0703-7be2-905f" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="991d-0703-7be2-905f" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7cb3-5137-bd8a-4c60" name="Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8f53-0dde-814b-e4ab" name="Light Automatic Cannon" hidden="false" targetId="43a3-43cf-bb32-b796" type="profile"/>
         <infoLink id="ce4a-356e-bcd6-1f32" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="a7ac-a262-3bdb-89ac" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
-        <infoLink id="0488-ea55-1f9c-1b14" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="a7ac-a262-3bdb-89ac" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="0488-ea55-1f9c-1b14" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="beb9-f6f1-ca97-4bcf" name="Heavy Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cfdf-0d8e-8eb7-909e" name="Heavy Automatic Cannon" hidden="false" targetId="ca81-4948-bfd6-acaf" type="profile"/>
         <infoLink id="e667-5641-65e6-182f" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="9031-d75f-b3f6-e953" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
-        <infoLink id="316e-2a1d-f07a-cace" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="9031-d75f-b3f6-e953" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="316e-2a1d-f07a-cace" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf80-1393-76d8-5b2f" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -705,17 +705,17 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="4d9e-25ae-ebea-4bda" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94b9-2bda-955a-beef" name="PIAT" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5215-4e23-bf86-5d7e" name="PIAT" hidden="false" targetId="6ec0-32c2-934a-93e4" type="profile"/>
         <infoLink id="8c4f-22b0-b8ff-8d44" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
-        <infoLink id="26c0-aa71-7409-9d91" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="26c0-aa71-7409-9d91" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f59-fcb3-b035-5e82" name="Bazooka" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -725,27 +725,27 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="2b0a-e93c-4e10-7f5e" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="44e3-67cb-3abc-f13c" name="Super-Bazooka" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f222-243f-5acd-21cc" name="Super-bazooka" hidden="false" targetId="76a6-d8b9-a653-0b1d" type="profile"/>
+        <infoLink id="f222-243f-5acd-21cc" name="Super-Bazooka" hidden="false" targetId="76a6-d8b9-a653-0b1d" type="profile"/>
         <infoLink id="fc5e-b8e4-ce62-2f61" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
-        <infoLink id="8f7e-0fae-757e-1e8c" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="8f7e-0fae-757e-1e8c" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5509-32a0-e168-1573" name="Panzerschreck" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2a52-ab49-4026-9122" name="Panzerschreck" hidden="false" targetId="7712-c93e-b6fa-1614" type="profile"/>
         <infoLink id="5db1-092f-b88d-5af7" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
-        <infoLink id="1251-4f08-23e9-32e2" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="1251-4f08-23e9-32e2" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3a4-0714-1a7e-1343" name="Panzerfaust" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -755,29 +755,29 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="cf23-1cd4-09ff-e554" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="169b-30ba-4907-7e96" name="Light AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="52e0-d3bd-42b7-8a32" name="Light AT Gun" hidden="false" targetId="b271-4381-b8d2-2067" type="profile"/>
-        <infoLink id="6198-561f-f859-77ba" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="6198-561f-f859-77ba" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="d0ca-238c-1241-1061" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="369d-8663-d0be-a90d" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="369d-8663-d0be-a90d" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18d0-3b64-50f8-83e6" name="Medium AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5b37-04bb-0254-7cd9" name="Medium AT Gun" hidden="false" targetId="bdf7-97f2-0ff2-27b7" type="profile"/>
         <infoLink id="edb4-ec48-826f-8b11" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="1fad-18f8-3ff2-a4cf" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
-        <infoLink id="4eb7-ae57-16ae-5149" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="1fad-18f8-3ff2-a4cf" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="4eb7-ae57-16ae-5149" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6097-5029-9ccd-f779" name="Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -788,28 +788,28 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6e7e-738b-1bca-6cf9" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a942-d250-c139-8e8a" name="Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="87ba-e0c8-dfdf-6a90" name="Super-heavy AT Gun" hidden="false" targetId="49b5-8198-173e-c6ae" type="profile"/>
+        <infoLink id="87ba-e0c8-dfdf-6a90" name="Super-Heavy AT Gun" hidden="false" targetId="49b5-8198-173e-c6ae" type="profile"/>
         <infoLink id="e59b-fff1-9267-c6ef" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="db74-f5c4-bcf3-243b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
-        <infoLink id="8628-e415-a232-7fef" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="8628-e415-a232-7fef" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5e9-fd6f-525c-f542" name="Flamethrower (Infantry)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3e01-db91-3fbd-7b46" name="Flamethrower (Infantry)" hidden="false" targetId="0caa-1b1b-f4d4-93ec" type="profile"/>
         <infoLink id="e018-db9d-cdaa-0f6f" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
-        <infoLink id="0da2-1341-b994-02a5" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="0da2-1341-b994-02a5" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db6f-f860-ed49-5e80" name="Light Flamethrower (Vehicle)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -818,7 +818,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="19c6-e7aa-c595-0348" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="39e6-7490-bb4b-9baa" name="Flamethrower (Vehicle)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -827,7 +827,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="a0d3-97cd-55e3-30dd" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4492-e0f5-5aa1-5c8a" name="Rifle Grenade" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -836,7 +836,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="eb0d-0312-fe55-8915" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a995-196d-d370-750c" name="Light Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -844,10 +844,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="d7fb-4b15-547d-43bd" name="Light Mortar" hidden="false" targetId="1f43-5d55-b748-53e3" type="profile"/>
         <infoLink id="ab4d-cf98-d01e-cbeb" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="f9ae-8c14-59df-4eb5" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
-        <infoLink id="fe93-ad16-1d43-890e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="fe93-ad16-1d43-890e" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="565d-33ad-6e9f-e303" name="Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -856,10 +856,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c86d-1074-c7d5-576f" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="b3f0-3306-6a55-edfc" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="1c43-eaca-aa35-44e6" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="bbb2-88ec-858e-e655" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="bbb2-88ec-858e-e655" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="489b-4134-1a49-c442" name="Heavy Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -868,10 +868,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="b2c2-c1e3-d561-3a41" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="99e8-476d-30bb-a604" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="ce89-8f9a-8a74-7820" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="a688-236b-095a-4871" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="a688-236b-095a-4871" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6cc-3474-2994-85a9" name="Light Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -881,10 +881,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="b3f0-c8ae-4434-1af3" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="1a80-fbda-c36a-941b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="529a-301c-4af5-e323" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="b64d-2d6c-304f-4b88" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="b64d-2d6c-304f-4b88" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b249-641b-1c00-2f92" name="Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -894,10 +894,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="24ab-a61f-9d66-82fc" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="0c0b-f64a-6911-b597" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="5128-2625-5c51-fcb3" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="89d4-5190-5361-56b6" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="89d4-5190-5361-56b6" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5007-330d-54cc-bf7c" name="Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -907,10 +907,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="7eb5-c50a-e7aa-ae7c" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="6527-0a4b-b80b-c285" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="ba64-b021-8105-c1ed" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="bf6b-4f92-4136-4854" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="bf6b-4f92-4136-4854" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37e8-6e69-9735-81d7" name="Turret-Mounted M17 Tesla Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -919,7 +919,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f09d-4a6f-6557-b5ac" name="Tesla" hidden="false" targetId="54e4-5047-175a-9421" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="085b-58f4-3814-4bff" name="Zvukovoy Proyektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -927,10 +927,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="8eaf-c641-a707-b7c1" name="Zvukovoy Proyektor" hidden="false" targetId="a412-f148-3195-f9e9" type="profile"/>
         <infoLink id="4dd4-8e5c-8b0e-20fa" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="47d6-334f-1fcf-9e3f" name="Shockwave" hidden="false" targetId="48cd-7351-3021-3a75" type="rule"/>
-        <infoLink id="193c-21e3-7550-c3a8" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="193c-21e3-7550-c3a8" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="74f5-cc38-0b89-9ccc" name="Schwerefeld Projektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -938,10 +938,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="eba4-cdd7-86a4-118c" name="Schwerefeld Projektor" hidden="false" targetId="c0fd-5060-8bd0-c30b" type="profile"/>
         <infoLink id="53b7-4194-1fbe-80f3" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="d373-005b-9218-36dd" name="Gravity Pulse" hidden="false" targetId="5b0b-40c4-bd14-81be" type="rule"/>
-        <infoLink id="fc58-a9a6-c2ef-c29e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="fc58-a9a6-c2ef-c29e" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="29d9-f2e1-e6a2-4a62" name="Compression Rifle" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -949,18 +949,18 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9d1e-00fb-1c39-3378" name="Compression Rifle" hidden="false" targetId="0be9-ea48-dcc3-fcea" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dad7-959f-dce7-8066" name="Light Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d718-4496-ce4f-a38f" name="Light Compression Cannon" hidden="false" targetId="1b0a-c1a0-cafe-ea6d" type="profile"/>
-        <infoLink id="bcfd-2361-f2e4-8568" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="bcfd-2361-f2e4-8568" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
         <infoLink id="c72d-f718-18a6-42f9" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="5801-6bb8-0219-2b3c" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="545a-d271-eee0-0625" name="Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -968,10 +968,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="bf89-45e9-4c0e-9946" name="Compression Cannon" hidden="false" targetId="f863-d6ed-ac05-cafa" type="profile"/>
         <infoLink id="fff6-6ef9-670a-8777" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="b819-469e-290a-dbcb" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
-        <infoLink id="f2e8-efad-dcc3-3553" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="f2e8-efad-dcc3-3553" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab2f-90e7-fef4-7a35" name="M21 Light Tesla Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -979,10 +979,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="3eb6-e352-9ed3-f1bf" name="M21 Light Tesla Cannon" hidden="false" targetId="7993-3b63-95e3-5c39" type="profile"/>
         <infoLink id="6033-d1f6-df1b-7b86" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="f650-77f3-8cca-81ed" name="Tesla" hidden="false" targetId="54e4-5047-175a-9421" type="rule"/>
-        <infoLink id="0ebc-ed6a-4eb3-53a8" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="0ebc-ed6a-4eb3-53a8" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4681-9d5a-6088-614a" name="Light Schwerefeld Projektor" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -990,10 +990,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6fd9-505a-90c6-1967" name="Light Schwerefeld Projektor" hidden="false" targetId="b986-9db2-1fcb-fac7" type="profile"/>
         <infoLink id="9297-5f9c-64a4-1ae1" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="7d4b-1422-39ae-21c8" name="Gravity Pulse" hidden="false" targetId="5b0b-40c4-bd14-81be" type="rule"/>
-        <infoLink id="6e5f-4100-27ad-fa99" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="6e5f-4100-27ad-fa99" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61ee-7e2c-428a-991e" name="Meteor Launcher" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1001,10 +1001,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="3f79-0b0c-7bf8-5b61" name="Meteor Launcher" hidden="false" targetId="98b4-3216-b8de-a42e" type="profile"/>
         <infoLink id="50cf-3f4d-bb61-feac" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="edd7-afa7-d6d2-3f11" name="Meteor Strike" hidden="false" targetId="b363-7b24-18ca-e596" type="rule"/>
-        <infoLink id="a02a-8ba1-215e-6204" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="a02a-8ba1-215e-6204" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf14-d022-f031-dd65" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -1012,7 +1012,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c387-4569-0390-b6a8" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="255b-0ebf-96b4-86de" name="Luftfaust" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="false" import="true" type="upgrade">
@@ -1020,10 +1020,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="407f-46e6-15c2-55da" name="Luftfaust" hidden="false" targetId="ebf4-6485-e352-340f" type="profile"/>
         <infoLink id="733d-35c8-47d9-b870" name="One-Shot" hidden="false" targetId="4342-1652-de73-4014" type="rule"/>
         <infoLink id="976a-87bc-9f77-7fdc" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
-        <infoLink id="984d-e7dd-c9e3-6c57" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="984d-e7dd-c9e3-6c57" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24b7-7446-6056-7e69" name="Heavy Tesla Rifle" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -1033,7 +1033,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="807d-c1e5-929f-c637" name="Heavy Tesla Rifle (Single Shot Mode)" hidden="false" targetId="7c09-aa71-e598-c330" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6f1-e969-2e44-1ff3" name="Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
@@ -1044,49 +1044,49 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="90d9-6eab-dbca-acf3" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="937b-3637-ac69-f44f" name="Grenade Launcher" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="74d7-f69b-a454-799d" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="74d7-f69b-a454-799d" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
         <infoLink id="e544-424a-d44b-aa74" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="4c6c-e3f0-be9f-a848" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
         <infoLink id="0cb9-d19a-a447-0e62" name="Grenade Launcher (Anti-Tank)" hidden="false" targetId="76b6-928d-55a2-5928" type="profile"/>
         <infoLink id="0422-c683-6f89-1eca" name="Grenade Launcher (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e2f-756e-856c-84e4" name="Radio Networks" publicationId="9a47-ac76-pubN66291" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="notInstanceOf"/>
+            <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="notInstanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f7-1aba-45d4-8a6e" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f7-1aba-45d4-8a6e" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="88e5-1ba7-9d90-1259" name="Radio Networks" hidden="false" targetId="0727-1eba-1222-74fd" type="rule"/>
+        <infoLink id="88e5-1ba7-9d90-1259" name="Radio Network" hidden="false" targetId="0727-1eba-1222-74fd" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="5.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1490-84ec-67d8-0dae" name="Command Vehicle" publicationId="9a47-ac76-pubN66291" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="notInstanceOf"/>
+            <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="notInstanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bced-3bf4-5d86-38ac" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bced-3bf4-5d86-38ac" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="0af5-34a6-c5ba-2396" name="Command Vehicle" hidden="false" targetId="5209-ad07-7198-6f88" type="rule"/>
@@ -1095,19 +1095,19 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <entryLink id="77e4-f9fd-9558-15e5" name="Senior Command Vehicle" hidden="false" collective="false" import="true" targetId="ba3f-311f-cdef-2044" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba3f-311f-cdef-2044" name="Senior Command Vehicle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c3-b3f2-b5f1-6909" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f5-8409-2b95-6aa9" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c3-b3f2-b5f1-6909" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f5-8409-2b95-6aa9" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="d04d-fa12-3d03-e8f1" name="Senior Command Vehicle" hidden="false" targetId="4272-afb2-0059-83de" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="15.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="359d-ffaf-84b8-7008" name="Turret-Mounted Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1116,7 +1116,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="b3a3-be1c-2be4-2c46" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfd8-d421-3cd2-ab75" name="Coaxial MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1124,7 +1124,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9ce7-da44-1710-91a6" name="Coaxial MMG" hidden="false" targetId="f08d-ea25-9525-68a6" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f61-03a6-aa4d-d303" name="Turret-Mounted Schwerefeld Projektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1133,7 +1133,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="d47e-b16c-3585-9ee3" name="Gravity Pulse" hidden="false" targetId="5b0b-40c4-bd14-81be" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0eb8-ef2c-f337-579d" name="Inexperienced (Vehicle)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1141,7 +1141,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="890a-7ffb-a284-b0f4" name="Inexperienced (Vehicle)" hidden="false" targetId="f899-8972-8556-faeb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db47-30f7-6497-9700" name="Regular (Vehicle)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1149,7 +1149,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="91a3-7eb6-8416-1331" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf9f-ad2a-55c5-505e" name="Veteran (Vehicle)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1157,7 +1157,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f3d9-f0a6-4a42-c80e" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53be-9f51-21cd-9ca6" name="Turret-Mounted Light Schwerefeld Projektor" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1166,7 +1166,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c7ad-e6f4-b724-3c5e" name="Gravity Pulse" hidden="false" targetId="5b0b-40c4-bd14-81be" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3384-54f8-488f-d217" name="Pintle-Mounted Forward-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1174,16 +1174,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="b5bf-b49a-5226-e07d" name="Pintle-Mounted Forward-Facing MMG" hidden="false" targetId="2f93-c2b7-1d9b-1b36" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45a7-63b9-9664-ef82" name="Hull-Mounted Forward-Facing Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="83a6-1f81-4c8f-4895" name="Hull-Mounted Forward-Facing Light Automatic Cannon" hidden="false" targetId="1f6a-6faf-4295-b29c" type="profile"/>
-        <infoLink id="29db-3fa6-d84a-e402" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="29db-3fa6-d84a-e402" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4a1-baaf-b548-358c" name="360-Degree Pintle-Mounted Dual HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1191,7 +1191,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="e5b2-828e-4767-1639" name="360-Degree Pintle-Mounted Dual HMG" hidden="false" targetId="d6da-698d-adef-99cd" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="313c-cc03-e580-126f" name="360-Degree Pintle-Mounted HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1199,7 +1199,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c4b4-64ec-481b-4873" name="360-Degree Pintle-Mounted HMG" hidden="false" targetId="c6df-f50f-59e2-56de" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3d9-1a0f-0031-e8c7" name="Hull-Mounted Forward-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1207,26 +1207,26 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="97e8-aa5e-9266-7438" name="Hull-Mounted Forward-Facing MMG" hidden="false" targetId="8149-6382-e2ae-f795" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e225-a1a7-6595-3b34" name="Hull-Mounted Forward-Facing Light AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="74d4-0fd6-e002-f7e2" name="Hull-Mounted Forward-Facing Light AT Gun" hidden="false" targetId="7863-0573-cebe-45ea" type="profile"/>
-        <infoLink id="391d-8f0f-15e3-82b4" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="391d-8f0f-15e3-82b4" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d077-40df-3690-60e8" name="Linked Casement-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ae27-7926-5bb5-dc8c" name="Linked Casement-Mounted Light Automatic Cannon" hidden="false" targetId="8eca-1bd4-7433-0b19" type="profile"/>
-        <infoLink id="2da8-1487-308d-d1c6" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="ae27-7926-5bb5-dc8c" name="Casement-Mounted Forward Facing Light Automatic Cannon" hidden="false" targetId="8eca-1bd4-7433-0b19" type="profile"/>
+        <infoLink id="2da8-1487-308d-d1c6" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="91a5-f776-4466-3bc1" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8503-f9cf-c544-aa05" name="Fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -1235,7 +1235,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c518-0ab8-22f1-c55c" name="Fist" hidden="false" targetId="952d-3a1b-a7be-28ac" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="120c-e493-2f7b-a6fb" name="Right Arm-Mounted HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1243,17 +1243,17 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c548-51b9-257a-ed61" name="Arm-Mounted HMG" hidden="false" targetId="a1ae-99a8-2b41-8e43" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0562-0a56-8841-c1ed" name="Right Arm-Mounted Bazooka" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b9c3-f121-153f-9613" name="Arm-Mounted Bazooka" hidden="false" targetId="0526-4b72-d3e2-afeb" type="profile"/>
         <infoLink id="5d38-da1f-9f85-5d45" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
-        <infoLink id="f706-31e3-75e2-2546" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="f706-31e3-75e2-2546" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a27-8bb6-79a1-2407" name="Turret-Mounted M21 Light Tesla Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1262,16 +1262,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6ec3-b7d7-8510-e443" name="Tesla" hidden="false" targetId="54e4-5047-175a-9421" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae45-ebe0-340d-1259" name="Hull-Mounted Forward-Facing Medium AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="34f7-8bde-645c-f142" name="Hull-Mounted Forward-Facing Medium AT Gun" hidden="false" targetId="8528-7f63-f328-5220" type="profile"/>
-        <infoLink id="956e-1e54-7455-e519" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="956e-1e54-7455-e519" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9ca-5612-d169-2369" name="Hull-Mounted Forward-Facing Light Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1282,7 +1282,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="742d-9b41-d16e-ffbc" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3aa1-77ea-676f-1800" name="Linked Hull-Mounted Forward-Facing HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1291,7 +1291,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="86f1-7314-f7a1-a9a2" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9eba-c836-036d-2cf4" name="Right Arm-Mounted Flamethrower (Infantry)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1300,7 +1300,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="5548-ff44-5bf7-b072" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c676-8ab1-132f-38e5" name="Right Arm-Mounted MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1308,7 +1308,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9f48-f3de-00fd-447c" name="Arm-Mounted MMG" hidden="false" targetId="b89c-aa68-3e1c-7735" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fde-b247-5ea6-a771" name="Pintle-Mounted Forward-Facing HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1316,16 +1316,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="1a4c-ce19-1388-24c9" name="Pintle-Mounted Forward-Facing HMG" hidden="false" targetId="997a-da0d-07a8-6c3a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b18-3363-e352-44f1" name="Casement-Mounted Forward-Facing Heavy Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="0935-a2a9-c54c-485d" name="Casement-Mounted Forward-Facing Heavy Automatic Cannon" hidden="false" targetId="d1b6-69fd-a299-f58e" type="profile"/>
-        <infoLink id="b835-cb25-0974-3c21" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="b835-cb25-0974-3c21" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e5e-01a4-011f-33ee" name="Twin Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
@@ -1336,7 +1336,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="dcfc-e700-68f5-3edd" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3296-6844-2b99-aa77" name="Turret-Mounted Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1345,7 +1345,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ef7b-40fe-e74d-8564" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d7a-e491-7f93-70d9" name="Pintle-Mounted Turret-Based HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1353,7 +1353,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="b635-86d1-9860-7b0a" name="Pintle-Mounted Turret-Based HMG" hidden="false" targetId="fe08-4495-93d5-8497" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90e3-e743-a8d4-f311" name="Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -1362,7 +1362,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="d15a-dedf-4713-25f9" name="Sword" hidden="false" targetId="1460-4fd8-ef46-2378" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3af7-415d-30eb-3561" name="Flag" publicationId="9a47-ac76-pubN65838" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -1370,19 +1370,19 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="d37b-43d3-0868-21a8" name="Rally to the Colors!" hidden="false" targetId="0d3a-95d1-13c4-f94b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec9b-71dd-f633-2d1d" name="Light Rocket System" publicationId="9a47-ac76-pubN65838" page="67" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5211-b465-aae9-202d" name="Light Rocket System" hidden="false" targetId="8d58-392d-5c8c-1579" type="profile"/>
-        <infoLink id="32ff-645c-f6b8-2477" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="32ff-645c-f6b8-2477" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
         <infoLink id="9f69-9079-e553-30ff" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="dc93-97dc-3b6b-d56f" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="00ee-fdbf-440f-1adc" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df09-d518-5944-8cd0" name="Hull-Mounted Forward-Facing Light Rocket System" publicationId="9a47-ac76-pubN65838" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -1392,7 +1392,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="d1c2-d76c-581e-0a7b" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7aca-da9f-6474-bb2e" name="Linked Hull-Mounted Forward-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1401,16 +1401,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="2f22-c11a-fabc-20cb" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8631-bede-ed91-ff75" name="Casement-Mounted Forward-Facing Light AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="be9a-56b7-40f9-c8e3" name="Casement-Mounted Forward-Facing Light AT Gun" hidden="false" targetId="0412-5c5f-f031-17fa" type="profile"/>
-        <infoLink id="2d93-47a0-4ef9-3b8a" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="2d93-47a0-4ef9-3b8a" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c802-e9f1-ef3c-c2fe" name="Casement-Mounted Forward-Facing Light Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1419,25 +1419,25 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="46a0-163d-8efd-e8a5" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc28-0208-2b44-a5ac" name="Turret-Mounted Light AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="82d9-ac4e-5767-349d" name="Turret-Mounted Light AT Gun" hidden="false" targetId="6ffb-8493-7339-eb62" type="profile"/>
-        <infoLink id="f7ce-468d-542d-bd26" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="f7ce-468d-542d-bd26" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96c5-5bfc-cecc-66e9" name="Turret-Mounted Medium AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="567c-57b3-cf80-ea84" name="Turret-Mounted Medium AT Gun" hidden="false" targetId="ca0a-5749-2a3c-0288" type="profile"/>
-        <infoLink id="92f6-0d7a-1e03-35fb" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="92f6-0d7a-1e03-35fb" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0734-a2a1-6e61-78b0" name="Turret-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1446,7 +1446,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6701-2bd8-0f7b-199f" name="Turret Rear-Mounted Machine Gun" hidden="false" targetId="f0af-b11f-cc9c-e041" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d837-1e14-a538-69b8" name="Turret-Mounted Light Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1457,7 +1457,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="2646-a6b6-4414-d0fa" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="487e-8951-b11b-9255" name="Turret-Mounted Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1466,7 +1466,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ffca-8db5-8ef8-4c09" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfff-d753-0356-8205" name="Turret-Mounted MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1474,7 +1474,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="78a6-5d71-8cd0-bb87" name="Turret-Mounted MMG" hidden="false" targetId="5ed3-784e-1f05-28cb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e21f-3661-f05b-8a03" name="Turret-Mounted HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1482,18 +1482,18 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="4d05-b2ce-d140-bc34" name="Turret-Mounted HMG" hidden="false" targetId="bb58-0429-c85d-2f64" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc40-6493-a87b-95fd" name="360-Degree Platform-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a4ec-cbd2-6430-8806" name="360-Degree Platform-Mounted Light Automatic Cannon" hidden="false" targetId="90f4-cfce-697a-edd9" type="profile"/>
         <infoLink id="833b-9899-0274-9195" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="926b-1b6b-e812-26d6" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
-        <infoLink id="b606-f524-49d9-7dc6" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="926b-1b6b-e812-26d6" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="b606-f524-49d9-7dc6" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e4e-f831-cd1b-a78d" name="360-Degree Pintle-Mounted MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1501,7 +1501,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c290-1144-bce9-d201" name="360-Degree Pintle-Mounted MMG" hidden="false" targetId="7710-3942-0a99-bb82" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd8b-891f-47b9-9723" name="Casement-Mounted Forward-Facing Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1510,7 +1510,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="802a-9e62-3bde-7c3f" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7be-6840-b912-1ed6" name="360-Degree Remote-Operated MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1518,7 +1518,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="4019-4051-56ed-4e46" name="360-Degree Remote-Operated MMG" hidden="false" targetId="f220-6bbc-83dd-68f7" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0886-169c-0892-c9da" name="Hull-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1527,16 +1527,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="42ce-15e0-d6f0-aa09" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7610-0ec0-6955-fc67" name="Coaxial Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3339-9535-786e-9c7e" name="Coaxial Light Automatic Cannon" hidden="false" targetId="4929-6588-e81c-9aeb" type="profile"/>
-        <infoLink id="0883-7853-8caf-10c2" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="0883-7853-8caf-10c2" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2028-537e-fe2b-8dba" name="Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -1545,7 +1545,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="0b07-458c-be8d-9a0e" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a99-78b7-12a9-0f4c" name="Automatic Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1553,7 +1553,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6ab8-594d-edeb-aba9" name="Automatic Rifle" hidden="false" targetId="05f9-c32d-ccf4-8554" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a1a-55ad-a310-3cdc" name="Rifle" hidden="false" collective="true" import="true" type="upgrade">
@@ -1561,7 +1561,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="55b8-129f-b26e-2e4f" name="Rifle" hidden="false" targetId="45fa-b48d-a682-3620" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fae-2704-edd4-5dd1" name="SMG" hidden="false" collective="true" import="true" type="upgrade">
@@ -1570,7 +1570,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="8c18-6848-d211-5bd6" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a5f-1b47-e5bf-3081" name="Shotgun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
@@ -1579,7 +1579,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f6e0-78ee-2056-e72e" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c96-bad3-b18b-1fe3" name="Pistol" hidden="false" collective="true" import="true" type="upgrade">
@@ -1588,7 +1588,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="25cf-5983-01e4-cebb" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88e4-a270-7100-1505" name="LMG" hidden="false" collective="false" import="true" type="upgrade">
@@ -1596,17 +1596,17 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9256-8a4b-36bd-a527" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfcf-2c7b-f259-66e8" name="Flamethrower (Infantry)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c1fa-e1fe-e985-0c0a" name="Flamethrower (Infantry)" hidden="false" targetId="0caa-1b1b-f4d4-93ec" type="profile"/>
         <infoLink id="b24a-ac2b-7f96-0728" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
-        <infoLink id="277c-043b-90b7-4ddb" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="277c-043b-90b7-4ddb" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3c3-7005-fe07-fa3d" name="Light Howitzer (D3 HE)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1616,10 +1616,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="34d2-6f84-9de0-384d" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
         <infoLink id="5d17-0c53-b5d0-bfe6" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="b8e3-a396-e3ac-ccdf" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="f7a5-cd12-b91c-761f" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="f7a5-cd12-b91c-761f" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bc2-2040-0644-29c4" name="Turret-Mounted Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1630,7 +1630,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="2b86-8cc2-ce02-e032" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a0d-4460-5e5e-f5e7" name="M17 Tesla Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1641,7 +1641,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="8fb9-f211-adae-f413" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0db8-6972-ca9f-f49e" name="Casement-Mounted Forward-Facing MMG" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1649,7 +1649,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c867-48b9-7c0f-f51c" name="Casement-Mounted Forward-Facing MMG" hidden="false" targetId="0920-3418-cf59-f5bf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="44b5-3b8d-226f-adb1" name="Casement-Mounted Forward-Facing HMG" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1657,16 +1657,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6b41-f177-8a2c-a9fa" name="Casement-Mounted Forward-Facing HMG" hidden="false" targetId="d9dc-319c-82a3-210d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e72a-1e34-fcfe-db78" name="Casement-Mounted Forward-Facing Medium AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="485f-ee91-5f17-aea7" name="Casement-Mounted Forward-Facing Medium AT Gun" hidden="false" targetId="88ee-a610-88ce-3f5e" type="profile"/>
-        <infoLink id="9b21-81fb-c73a-e8c8" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="9b21-81fb-c73a-e8c8" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f953-5c05-5868-4daf" name="Right Arm Mounted Heavy Howitzer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1675,7 +1675,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="e216-376c-d2dc-40b3" name="Arm-Mounted Heavy Howitzer" hidden="false" targetId="17bd-a862-6ad3-5441" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ba2-5cc2-9a12-2d17" name="Left Arm Mounted Heavy Howitzer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1684,7 +1684,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9911-4c00-2f3d-27f7" name="Arm-Mounted Heavy Howitzer" hidden="false" targetId="17bd-a862-6ad3-5441" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ecac-f513-6105-dac1" name="Left Arm-Mounted Bazooka" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1694,7 +1694,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="012c-b18a-af2d-c058" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f91-f2da-b621-a64d" name="Left Arm-Mounted Flamethrower (Infantry)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1703,7 +1703,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="3a18-3b73-c761-84e7" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95a3-ebc8-a68d-5f1d" name="Left Arm-Mounted HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1711,7 +1711,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="95f3-e1fb-3829-71c5" name="Arm-Mounted HMG" hidden="false" targetId="a1ae-99a8-2b41-8e43" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfd4-f0e4-75e0-e6e5" name="Left Arm-Mounted MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1719,16 +1719,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="0ec5-9060-375e-7c8c" name="Arm-Mounted MMG" hidden="false" targetId="b89c-aa68-3e1c-7735" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcff-5e9c-3c71-6776" name="Right Arm-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6915-355a-9473-cc1c" name="Arm-Mounted Light Autocannon" hidden="false" targetId="dc37-d51c-7e65-36c7" type="profile"/>
-        <infoLink id="329a-f03b-c6d8-51fa" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="6915-355a-9473-cc1c" name="Arm-Mounted Light Automatic Cannon" hidden="false" targetId="dc37-d51c-7e65-36c7" type="profile"/>
+        <infoLink id="329a-f03b-c6d8-51fa" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0b0-d4cd-1eab-b30e" name="Arm Mounted Heavy Howitzer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1737,24 +1737,24 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="8cbf-fa57-5e53-1a69" name="Arm-Mounted Heavy Howitzer" hidden="false" targetId="17bd-a862-6ad3-5441" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="598c-2215-8227-7b54" name="Left Arm-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1113-f5c6-9d9b-8cc4" name="Arm-Mounted Light Autocannon" hidden="false" targetId="dc37-d51c-7e65-36c7" type="profile"/>
-        <infoLink id="e0c7-2bd7-d010-9ce1" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="1113-f5c6-9d9b-8cc4" name="Arm-Mounted Light Automatic Cannon" hidden="false" targetId="dc37-d51c-7e65-36c7" type="profile"/>
+        <infoLink id="e0c7-2bd7-d010-9ce1" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6854-ac6c-9320-f2c2" name="Casement-Mounted Forward-Facing Light Automatic Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b577-07a2-ebad-4105" name="Casement-Mounted Light Automatic Cannon" hidden="false" targetId="8eca-1bd4-7433-0b19" type="profile"/>
+        <infoLink id="b577-07a2-ebad-4105" name="Casement-Mounted Forward Facing Light Automatic Cannon" hidden="false" targetId="8eca-1bd4-7433-0b19" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e91-0151-f107-266c" name="Heavy Tesla Rifle" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" collective="true" import="true" type="upgrade">
@@ -1764,7 +1764,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="63ba-ca23-01aa-15d0" name="Heavy Tesla Rifle (Single Shot Mode)" hidden="false" targetId="7c09-aa71-e598-c330" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c440-988f-1317-e1b3" name="Turret-Mounted Flamethrower (Vehicle)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1773,7 +1773,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ae02-9c5a-832a-e29c" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1faf-ad52-cb7f-202a" name="Turret-Mounted Multiple Launcher" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1783,7 +1783,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="b380-d663-613a-bd69" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9dc3-ad5b-f45b-d3b6" name="HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
@@ -1793,7 +1793,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="3ba1-9526-132b-1c3c" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6dc4-67a2-757e-5aa9" name="LMG" hidden="false" collective="true" import="true" type="upgrade">
@@ -1801,17 +1801,17 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="fb60-7d88-917a-6890" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd1a-0d40-a62b-af41" name="MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d649-2fc6-0dc3-b438" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile"/>
         <infoLink id="4fc9-c67a-4bbe-ccc7" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="cc8a-7190-b8a2-2a53" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="cc8a-7190-b8a2-2a53" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72b9-8c6b-3caf-d93a" name="Turret-Mounted Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1822,7 +1822,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ff6f-21a5-1152-59bc" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3330-f82b-8f6f-c9e1" name="Hull-Mounted Forward Facing Flamethrower (Vehicle)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1831,16 +1831,16 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="2641-46ce-e6a9-5b7e" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb32-b08d-c5d5-633d" name="Rear-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="36e7-e3ad-d125-572f" name="Turret-Mounted Rear-Facing Super-Heavy AT Gun" hidden="false" targetId="7056-ef87-0e27-c00d" type="profile"/>
+        <infoLink id="36e7-e3ad-d125-572f" name="Rear-Facing Super-Heavy AT Gun" hidden="false" targetId="7056-ef87-0e27-c00d" type="profile"/>
         <infoLink id="801d-55af-4b79-4681" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b3f-e3da-ff0c-7351" name="Crew-Carried LMG" hidden="false" collective="false" import="true" type="upgrade">
@@ -1848,7 +1848,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="2ce2-8517-8d39-4546" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53a5-6c10-b8ea-349e" name="Compression Rifle" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" collective="true" import="true" type="upgrade">
@@ -1856,19 +1856,19 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="990c-dcb2-6485-0563" name="Compression Rifle" hidden="false" targetId="0be9-ea48-dcc3-fcea" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e128-57af-2dc7-c91e" name="Grenade Launcher" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d263-578d-ea40-161e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="d263-578d-ea40-161e" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
         <infoLink id="bbe9-7386-dc3e-ce2b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="6a63-0f9c-4a88-a008" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
         <infoLink id="0d01-ea36-5862-b023" name="Grenade Launcher (Anti-Tank)" hidden="false" targetId="76b6-928d-55a2-5928" type="profile"/>
         <infoLink id="1ba3-c587-1b3b-ca73" name="Grenade Launcher (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e40d-5596-7d00-54df" name="Turret-Mounted Light Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -1877,7 +1877,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c68c-c015-4ac4-1dba" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f99-c9be-c7cc-7591" name="Hull-Mounted Forward-Facing Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1888,7 +1888,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="118f-9ec6-85b9-0b51" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b631-611b-1d02-5991" name="Hull-Mounted Forward-Facing Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1899,7 +1899,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f3d0-0b13-a3f7-4d43" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8aad-9827-72d2-822f" name="Hull-Mounted Forward-Facing Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1909,7 +1909,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f870-a3f5-4503-538d" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8da9-83cc-0219-d21c" name="Pintle-Mounted Forward-Facing LMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1917,25 +1917,25 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9e6f-b737-94d8-6921" name="Pintle-Mounted Forward-Facing LMG" hidden="false" targetId="cd2a-e87b-3970-9945" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b9d-e58c-0458-5a43" name="Turret-Mounted Heavy Automatic Cannon" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6315-8a30-14a0-0646" name="Turret-Mounted Heavy Automatic Cannon" hidden="false" targetId="6557-847b-7aa8-fad8" type="profile"/>
-        <infoLink id="3034-db71-654a-1342" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="3034-db71-654a-1342" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="605b-6c20-fa9b-bc4c" name="Turret-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8e81-9b19-6a4d-f632" name="Turret-Mounted Light Automatic Cannon" hidden="false" targetId="f2af-80f9-b4a2-8960" type="profile"/>
-        <infoLink id="ace6-efa6-ac8b-1446" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="ace6-efa6-ac8b-1446" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbb2-e859-8e65-5696" name="Hull-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1943,17 +1943,17 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9c03-f9d5-3087-1aac" name="Hull-Mounted Rear-Facing MMG" hidden="false" targetId="e34f-3087-17ee-5527" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3847-0dd6-f3ba-5120" name="Tow" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d28-ace1-ac58-341a" name="Transport" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48ec-62d5-f3e8-c7e2" name="Crew-Carried MMG" hidden="false" collective="false" import="true" type="upgrade">
@@ -1961,7 +1961,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="66e5-3d60-1c2d-f181" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4292-8803-1ece-6ed5" name="Pintle-Mounted Turret-Based MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1969,7 +1969,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="42d9-3653-dea7-699c" name="Pintle-Mounted Turret-Based MMG" hidden="false" targetId="7aa6-3c08-f83f-669f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="305b-6bf3-dfac-871c" name="Hull-Mounted Forward-Facing Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1978,7 +1978,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="a562-37f5-3513-9daa" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc87-fb98-5307-06f7" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1987,7 +1987,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="f0d3-19e8-1028-8f8b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d954-61fe-95ee-5049" name="Turret-Mounted Light Rail Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -1996,7 +1996,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="52c5-6403-cb3c-376c" name="Rail Gun" hidden="false" targetId="f9e5-c861-f1df-74d5" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c6f-f2ae-8052-3310" name="Turret-Mounted Heavy Rail Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -2005,7 +2005,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="8f5a-2513-c289-c842" name="Rail Gun" hidden="false" targetId="f9e5-c861-f1df-74d5" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6363-7bfa-864b-8e77" name="Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -2016,7 +2016,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="e42f-a5a0-79c6-58cc" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e648-2372-84cf-39b4" name="Twin Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -2027,7 +2027,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9640-202d-3a8e-ffaf" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e53-9f42-2853-cf29" name="Turret-Mounted Zvukovoy Proyektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -2036,7 +2036,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="bb85-193e-75fe-576d" name="Shockwave" hidden="false" targetId="48cd-7351-3021-3a75" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6ce-3bee-ad91-11e5" name="Pintle-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -2044,7 +2044,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="c582-7c77-87d1-883a" name="Pintle-Mounted Rear-Facing MMG" hidden="false" targetId="add3-febd-f004-5e4a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8fa7-f0aa-0ac8-0ce2" name="Pintle-Mounted Rear-Facing HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
@@ -2052,7 +2052,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="52ac-82f6-f60f-9790" name="Pintle-Mounted Rear-Facing HMG" hidden="false" targetId="3d95-2ecf-8208-56c1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b65-061d-c687-cc9e" name="Light Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
@@ -2060,10 +2060,10 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="1559-62f6-fb5e-031c" name="Light Mortar" hidden="false" targetId="1f43-5d55-b748-53e3" type="profile"/>
         <infoLink id="a9f5-8308-9fee-c3a2" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="d759-2414-15df-afb8" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
-        <infoLink id="b68e-5ece-3444-407a" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="b68e-5ece-3444-407a" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2207,9 +2207,7 @@ When rolling on the damage effects chart against vehicles with flamethrowers, ad
 
 A target shot at by HE can react by taking an immediate Down action in the usual manner. Once the target has gone Down, the number of HE hits caused is halved (rounding down). This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel. Hits by weapons with an HE value greater than D3 can result in extra pin markers on the target. This represents the terrifying effect of artillery shells exploding on and near the unit. The total number of pin markers is generated randomly by rolling a D2, D3, or D6 depending on the HE value of the shooter as shown on the chart below. For example, if hit by a shell with an HE value of D6 the target takes D2 pin markers – i.e. roll a dice with scores of 1, 2, or 3 = 1 and scores of 4, 5, or 6 = 2. The penetration value of HE shells also varies with the HE values, with larger and more powerful shells having higher values. This is also shown on the chart below. HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when firing at long range.
 
-When a unit capable of shooting HE or anti-tank shots is given an Ambush order the player must specify the type of round loaded. If this is forgotten then the default position is that anti-tank guns will load anti-tank rounds, whilst other guns will load HE rounds. The unit cannot change from one type of round to another until a further order is issued – though this could be another Ambush order if desired.
-
-</description>
+When a unit capable of shooting HE or anti-tank shots is given an Ambush order the player must specify the type of round loaded. If this is forgotten then the default position is that anti-tank guns will load anti-tank rounds, whilst other guns will load HE rounds. The unit cannot change from one type of round to another until a further order is issued – though this could be another Ambush order if desired.</description>
     </rule>
     <rule id="bc43-6ea2-67b0-4b2a" name="Indirect Fire" publicationId="9a47-ac76-pubN65784" page="66" hidden="false">
       <description>These indirect fire weapons cannot be fired at targets within their minimum range. If a target lies within this minimum range the shot misses automatically and is ignored. When using indirect fire a 6 is required to hit regardless of all modifiers. In the following turn, if the shooter fires at the same target, and if neither the shooter nor the target has moved from their position, a hit is scored on a 5+. If the shooter continues to fire, and neither unit moves, a hit is scored on a 4+ in the next turn, then 3+, and finally 2+ in all subsequent turns. If a hit is scored in any turn, the shooter is zeroed in on the target and as long as neither unit moves, all further shots hit on 2+.
@@ -2338,8 +2336,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
       <description>War Dogs are classed as infantry and follow normal infantry rules for movement, roders, combat, etc. At the start of any activation that the unit is given a Run (or assault) order, the controlling player can choose to release the dogs. Remove any handler models remaining in the squad from the table (these may not return but do not count as casualties). 
 From this point, the unit is Immune to Horror and gains the Fast, Fanatics, and Tough Fighters special rules.
 As the order has already been declared, the dogs follow the order for the remainder of the turn, including direction of movement and target of the assault (if applicable). However, on subsequent turns, and at the start of any activation where there are no handlers in the unit, a unit of dogs without handlers will always Run towards the nearest infantry or artillery unit when activated. This may include friendly troops unfortunate enough to be in their range. If two units are equally close, enemy units are selected before friendly ones; if both are from the same side, roll a die for each unit, with the lowest roll deemed to be the closest. Units behind impassab;e terrain are ignored if the dog&apos;s movement cannot bring them into contact.
-If the Run move would bring the dogs into contact with the nearest unit, the Run order is changed to an assault and the war dogs conduct an assault instead.
-</description>
+If the Run move would bring the dogs into contact with the nearest unit, the Run order is changed to an assault and the war dogs conduct an assault instead.</description>
     </rule>
     <rule id="989b-f1c2-debc-660a" name="ARV" publicationId="9a47-ac76-pubN66291" page="33" hidden="false"/>
     <rule id="0e48-4316-c02c-2605" name="Animated Corpse" publicationId="9a47-ac76-pubN65784" page="131" hidden="false">
