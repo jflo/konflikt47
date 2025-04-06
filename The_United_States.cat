@@ -5087,8 +5087,8 @@
       <entryLinks>
         <entryLink id="aed1-81bc-d260-1ca1" name="Casement-Mounted Forward-Facing Light Automatic Cannon" hidden="false" collective="false" import="true" targetId="6854-ac6c-9320-f2c2" type="selectionEntry" sortIndex="1">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1529-1dae-5833-10b7-min" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1529-1dae-5833-10b7-max" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8240-c5a0-b7fe-25cd-min" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8240-c5a0-b7fe-25cd-max" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink id="d24b-2152-f072-4312" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule"/>
@@ -5109,7 +5109,12 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Hull-Mounted Forward-Facing MMG" hidden="false" id="c4c1-711e-2f0b-dd3d" type="selectionEntry" targetId="f3d9-1a0f-0031-e8c7"/>
+        <entryLink import="true" name="Hull-Mounted Forward-Facing MMG" hidden="false" id="c4c1-711e-2f0b-dd3d" type="selectionEntry" targetId="f3d9-1a0f-0031-e8c7" publicationId="2367-9a00-pubN65551" page="158">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df8d-c79d-6c7f-ee0a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df8d-c79d-6c7f-ee0a-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="240"/>
