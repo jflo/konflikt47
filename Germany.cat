@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="23af-76b6-4c5c-fe95" name="Germany" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="23af-76b6-4c5c-fe95" name="Germany" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
     <forceEntry id="dcdb-84be-21e2-f025" name="German Infantry Platoon" publicationId="9a47-ac76-pubN65838" page="21" hidden="false">
       <categoryLinks>
@@ -1846,7 +1846,6 @@
       <categoryLinks>
         <categoryLink id="81ab-3f75-a1ac-74ef" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="true"/>
         <categoryLink id="51a6-e91a-2ff0-d52d" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false"/>
-        <categoryLink id="807b-3f98-b8e3-c43c" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8cfc-5e3e-8aea-3560" name="Heinrich Gross" hidden="false" collective="false" import="true" type="model">
@@ -7168,97 +7167,6 @@
             <entryLink import="true" name="Veteran" hidden="false" id="3041-27db-af25-872f" collective="false" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Officer" id="30b8-cf8b-e10b-7ead" hidden="false" collective="false" import="true" defaultSelectionEntryId="45f7-ffe8-670b-1334">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d6a8-eead-4bda-36ed" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d55-fb95-ab03-c338" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Leutnant (Second Lieutenant)" hidden="false" id="51f7-9595-857d-ac37" collective="false">
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <modifiers>
-                    <modifier type="increment" value="50" field="d66a-aa5a-74b9-e93a">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="94da-de73-f0b5-9bc6" childId="020b-0c80-419b-6391" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" value="65" field="d66a-aa5a-74b9-e93a">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="94da-de73-f0b5-9bc6" childId="611f-6911-51f6-d7a2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
-              <infoLinks>
-                <infoLink name="Second Lieutenant" id="528b-1106-4b5d-8cd7" hidden="false" targetId="9daf-9e31-47ab-812b" type="profile"/>
-                <infoLink name="Snap to Action" id="40f2-4375-0af0-7b0e" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="d562-d976-893e-d815" hidden="false" collective="false" import="true" defaultSelectionEntryId="54fa-f62c-cb8a-5b04">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60ed-77d3-75ea-00f1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e32b-da56-b3da-6f43" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Pistol" hidden="false" id="8964-2309-cfee-edbb" collective="false" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry"/>
-                    <entryLink import="true" name="SMG" hidden="false" id="5a17-13c3-6aaf-1157" collective="false" targetId="da2f-423c-1523-5126" type="selectionEntry"/>
-                    <entryLink import="true" name="Rifle" hidden="false" id="1dc6-6f00-305c-9178" collective="false" targetId="69b8-002c-ef16-c6e4" type="selectionEntry"/>
-                    <entryLink import="true" name="Assault Rifle" hidden="false" id="1d28-212a-a973-80b7" collective="false" targetId="2028-537e-fe2b-8dba" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Oberleutnant (First Lieutenant)" hidden="false" id="1173-ef1e-d79b-1889" collective="false">
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <modifiers>
-                    <modifier type="increment" value="75" field="d66a-aa5a-74b9-e93a">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="94da-de73-f0b5-9bc6" childId="020b-0c80-419b-6391" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" value="90" field="d66a-aa5a-74b9-e93a">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="94da-de73-f0b5-9bc6" childId="611f-6911-51f6-d7a2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
-              <infoLinks>
-                <infoLink name="First Lieutenant" id="78af-eb75-c4cb-6284" hidden="false" targetId="b135-cbf2-4684-b6dc" type="profile"/>
-                <infoLink name="Snap to Action" id="0946-c1d8-c1e0-9c19" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="676d-0581-a588-5b8a" hidden="false" collective="false" import="true" defaultSelectionEntryId="5891-168d-31e7-38ff">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e8d-a5bd-8986-12ab" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c03-643b-5679-79d0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Pistol" hidden="false" id="dcbe-2b7f-efe0-f6be" collective="false" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry"/>
-                    <entryLink import="true" name="SMG" hidden="false" id="cc59-766e-42b1-2208" collective="false" targetId="da2f-423c-1523-5126" type="selectionEntry"/>
-                    <entryLink import="true" name="Rifle" hidden="false" id="2c0f-a559-81d1-cb9a" collective="false" targetId="69b8-002c-ef16-c6e4" type="selectionEntry"/>
-                    <entryLink import="true" name="Assault Rifle" hidden="false" id="7c85-22b6-d962-3b2f" collective="false" targetId="2028-537e-fe2b-8dba" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <rules>
-            <rule name="Summon Totenkorps" id="03aa-e7eb-fb2c-6ff7" hidden="false" publicationId="a4ec-15d2-917c-df2a">
-              <description>Once per game, any totenkorps units in reserve may be placed on the field of battle within the Red Skulls extra order range.</description>
-            </rule>
-          </rules>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Additonal Men" id="20ad-6f4b-7f6a-7df5" hidden="false" collective="false" import="true">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8f76-e52f-c78a-5b43" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -7305,6 +7213,53 @@
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Hauptman (Captain)" hidden="false" id="f8c5-7b4f-f8dc-cbd2" collective="false">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="110" field="d66a-aa5a-74b9-e93a">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="9c34-abc3-4141-71e5" childId="020b-0c80-419b-6391" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="125" field="d66a-aa5a-74b9-e93a">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="9c34-abc3-4141-71e5" childId="611f-6911-51f6-d7a2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <infoLinks>
+            <infoLink name="Captain" id="c12c-e580-214d-6403" hidden="false" targetId="823f-83c4-4d7a-b6f7" type="profile"/>
+            <infoLink name="Snap to Action" id="b6a4-043a-3923-0d49" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="9ac0-6ed4-ba11-8890" hidden="false" collective="false" import="true" defaultSelectionEntryId="bedf-dcc5-04bf-7054">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8931-e416-b025-6010" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e48-4c0c-ac98-bd01" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Assault Rifle" hidden="false" id="e0d6-10ee-2415-f79f" collective="false" targetId="2028-537e-fe2b-8dba" type="selectionEntry"/>
+                <entryLink import="true" name="SMG" hidden="false" id="f05f-0661-463b-997f" collective="false" targetId="da2f-423c-1523-5126" type="selectionEntry"/>
+                <entryLink import="true" name="Rifle" hidden="false" id="1c1c-0971-8adb-eded" collective="false" targetId="69b8-002c-ef16-c6e4" type="selectionEntry"/>
+                <entryLink import="true" name="Pistol" hidden="false" id="4eff-ecbf-cac9-d39e" collective="false" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Summon Totenkorps" id="3e5d-9a0f-9ac8-9e3c" hidden="false" publicationId="a4ec-15d2-917c-df2a">
+          <alias>summon zombies</alias>
+          <description>Once per game, as a Rally action, any Totenkorps units in reserve may be placed on the field of battle within the Red Skulls extra order range.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -7378,6 +7333,10 @@
     </rule>
     <rule id="a708-41da-60fe-c1b0" name="Fatherland Resurgent" publicationId="9a47-ac76-pubN65784" page="127" hidden="false">
       <description>German infantry units, larger than 5 models, may ignore the negative modifier of one pinning marker when taking Advance order tests. They still have to take a test if they only have a single pin marker, but do not suffer the -1 to their morale for the first marker.</description>
+    </rule>
+    <rule name="Summon Totenkorps" id="d5a5-7df8-ab20-9490" hidden="false" publicationId="a4ec-15d2-917c-df2a">
+      <alias>summon zombies</alias>
+      <description>Once per game, as a Rally action, any Totenkorps units in reserve may be placed on the field of battle within the Red Skulls extra order range.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
